@@ -1,0 +1,13 @@
+/*Mise en page de la vidéo*/
+video {
+	/*display:block;*/
+	display:flex;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*Disposition de la description*/
+figcaption {
+	position: relative;
+	width: 66%
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE=html>
+<hmtl>
+
+    <head>
+        <meta charset=UTF-8 lang="fr">
+        <title>Aide Biographie Yoann PERIQUOI</title>
+        <link rel="stylesheet" type="text/css" href="../CSS_PHP/global.css">
+    </head>
+
+    <body>
+        <!--                        Navbar                          -->
+        <header class="titre1">
+            <nav>
+                <ul>
+                    <div class="topnav">
+                        <li id="liste">
+                            <a href="acceuil.html">Acceuil</a>
+                        </li>
+                        <li id="liste1">
+                            <a href="acceuil.html">Qui suis-je ?</a>
+                        </li>
+                        <li id="liste2">
+                            <a href="centredinteret.html">Centre d'intérêt</a>
+                        </li>
+                        <li id="liste2">
+                            <a href="mesproches.html">Mes proches</a>
+                        </li>
+                        <li class="dropdown">
+                            <button class="dropbtn">Médias</button>
+                            <div class="dropdown-content">
+                                <a href="galerie.html">Photo</a>
+                                <a href="video.html">Vidéo</a>
+                            </div>
+                        </li>
+                        <li id="liste3">
+                            <a href="contact.html">Contact</a>
+                        </li>
+                </ul>
+
+            </nav>
+
+            </div>
+            <!--                        Réseaux                         -->
+            <aside>
+
+                <div class="social">
+
+                    <a href="https://www.facebook.com/yoann.periquoi.5">
+                        <img class=margin src='../Images/facebook.png' alt=facebook/>
+                    </a>
+
+                    <a href="https://twitter.com/YoannPeriquoi">
+
+                        <img class=margin src='../Images/twitter.png' alt=twitter/>
+
+                    </a>
+
+                    <a href="https://www.instagram.com/yoann.periquoi">
+
+                        <img class=margin src='../Images/instagram.png' alt=instagram/>
+
+                    </a>
+
+                </div>
+
+            </aside>
+
+            </div>
+            <!--                        Entête de page                      -->
+            <h1>Ma meilleur vie : l'histoire de Yoann PERIQUOI (contact)</h1>
+
+            <img src='../Images/moi.jpg' alt=YoannPERIQUOI/>
+
+        </header>
+
+        <body>
+            <main>
+                <!--                        Section n°1                         -->
+                <section>
+
+                    <header>
+
+                        <h2>Contact</h2>
+
+                    </header>
+
+                    <p>
+                        En cas de problème majeur veuillez envoyer un mail au magnifique créateur de ce site : <strong>yoann.periquoi@etu.uca.fr.</strong>
+                        <br /> Mon numéro de téléphone : <strong>06.95.45.49.15</strong> .
+                        <br />
+                    </p>
+
+                    <p>
+                        N'hésitez pas à me faire des propositions pour que j'améliore mon chef d'oeuvre :
+                    </p>
+                    <!--                        Formulaire                      -->
+                    <form method="post" action="contact.php">
+                        <label>Nom:
+                            <input type="text" name="nom" required />
+                        </label>
+                        </br>
+                        <label>Prenom:
+                            <input type="text" name="prenom" required />
+                        </label>
+                        </br>
+                        <label>Email:
+                            <input type="email" name="email" required />
+                        </label>
+                        </br>
+                        <label>Téléphone:
+                            <input type="text" name="tel" />
+                        </label>
+                        </br>
+                        <label>Motif :
+                            <select required name="motif">
+                                <option value="bug">Bug</option>
+                                <option value="bug">Proposition d'amélioration</option>
+                                <option value="bug">Autre motif</option>
+                            </select>
+                        </label>
+                        </br>
+                        <label>Première visite ?
+                            <input type="radio" name="visite" value="oui" /> Oui
+                            <input type="radio" name="visite" value="non" /> Non
+                        </label>
+                        </br>
+                        <label>Votre message:
+                            <textarea name="message" rows="20" cols="80" placeholder="Veuillez indiquer votre message." required></textarea>
+                        </label>
+                        </br>
+                        <label>
+                            <input type="submit" value="Envoyer" />
+                        </label>
+                    </form>
+
+                    <p>
+
+                    Cliquez <a href="acceuil.html ">ICI</a> pour revenir à la page principal.
+
+                    </p>
+
+                </section>
+            </main>
+            <!--                        Footer                          -->
+            <footer>
+
+                <p class=signature>
+
+                    Yoann PERIQUOI G5 D.U.T INFORMATIQUE CLERMONT-FERRAND</br>
+                    Khris LOICHET G5 D.U.T INFORMATIQUE CLERMONT-FERRAND
+                </p>
+
+            </footer>
+        </body>

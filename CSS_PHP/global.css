@@ -1,0 +1,214 @@
+
+/* Définition de la police et des titres*/
+@font-face {
+	font-family:"MaPolice";
+	src: url(montserrat/Montserrat-Regular.otf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1 {
+	font-family:"MaPolice";
+	color: white;
+	font-style: italic;
+	text-shadow: 3px 2px darkgrey;
+}
+
+h2{
+	font-family:"MaPolice";
+	text-align: left;
+	text-decoration: underline;
+}
+
+h3 {
+	font-family:"MaPolice";
+	text-align: left;
+	text-decoration: underline;
+}
+
+section p {
+	text-align: left;
+	font-family: calibri;
+	font-size: 20px;
+
+}
+
+section {
+	width: auto;
+}
+
+
+/*Définition des espacements des pages*/
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin-top: 46px;
+}
+
+
+/*Classes attribuées au footer*/
+footer {
+	background-color: black;
+	/*display:block;*/
+	display: flex;
+	width: 100%;	
+ 	bottom:0;
+}
+
+.signature {
+	font-style: italic;
+	color: white;
+	width: 100%;
+	justify-content: right;
+}
+
+
+/*Définition de la navbar et de ses différents bouttons*/
+nav {
+	top: 0;
+	position: fixed;
+	width: 100%; 
+	background : linear-gradient(to bottom,black,grey 50%,black);
+	text-shadow:3px 2px grey;
+	box-shadow: 2px 2px grey;
+}
+
+.topnav {
+  	overflow: hidden;
+	background : linear-gradient(to bottom,black,grey 50%,black);
+	text-shadow:3px 2px grey;
+	box-shadow: 2px 2px grey;
+
+}
+
+.topnav a {
+  /*display:block;*/
+  display:flex;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown a, .dropbtn {
+  color: white;
+  display: inline-block;
+  background: linear-gradient(to bottom,black,grey 50%,black);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border:none;
+}
+
+.dropdown a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+  flex-direction: column;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:grey;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color:red;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+ul li:not(:last-child) {
+	border-right: 1px solid white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+#liste, #liste1, #liste2,.dropdown {
+  float: left;
+}
+
+#liste3{
+	float: right;
+}
+
+
+/*Définition des intéractions avec les liens*/
+a:link {
+	color: red;
+}
+
+a:hover {
+	color: purple;
+}
+
+a:visited{
+	color: yellow;
+}
+
+/*Mise en couleurs des titres*/
+.titre1 {
+	
+	background-color: pink;
+	width: auto;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.titre2 {
+	
+	background-color: none;
+	width: auto;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+
+/*Mise en place des liens vers les réseaux sociaux*/
+.social {
+	/*display:block;*/
+	display:flex;
+	position: fixed;
+	margin-top: 100px;
+	background-color: black;
+	right: 0;
+	flex-direction: column;
+
+}
+
+/*Responsive sur les polices*/
+@media screen and (max-width:800px)
+{
+   section p {
+   	font-size: 18px;
+   } 
+}
+
+@media screen and (min-width:1920px)
+{
+   section p {
+   	font-size: 22px;
+   } 
+}

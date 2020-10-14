@@ -1,0 +1,15 @@
+/*Mise en page du tableau*/
+table, th, td {
+  border-collapse: collapse;
+  border : 1px solid black;
+  margin-top : 1%;
+}
+
+table {
+	margin-bottom: 2%;
+}
+th, td {
+  padding: 5px;
+  text-align: center;   
+}
+

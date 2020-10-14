@@ -1,0 +1,36 @@
+/*Mise en place du responsive pour imprimante*/
+@media print
+{
+	header
+	{
+		display:none;
+	}
+	footer
+	{
+		display:none;
+	}
+	table,td,th
+	{
+		border:1px solid black;
+	}
+
+	table
+	{
+		margin-left:10px;
+		border-collapse:collapse;
+		width:90%;
+		margin-bottom:20px;
+	}
+
+	td
+	{
+		height:45px;
+		width:200px;
+		vertical-align:center;
+		text-align:center;
+	}
+	.image2
+	{
+		display:none;
+	}
+}

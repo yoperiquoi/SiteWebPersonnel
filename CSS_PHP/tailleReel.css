@@ -1,0 +1,14 @@
+/*Disposition de la description au centre de la page*/
+section{
+	text-align: center!important;
+}
+
+p {
+	text-align: center!important;
+}
+
+/*Mise en page du header*/
+.titre2 {
+	background-color: pink!important;
+	margin-bottom: 5px;
+}
